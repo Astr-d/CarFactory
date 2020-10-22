@@ -4,14 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Car1 car1 = new Car1();
+        Car car = new Car(CarBrand.CADILLAC);
+        Car car1 = new Car(CarBrand.ALFAROMEO);
+        Car car2 = new Car(CarBrand.TOYOTA);
+
+        //Skriver ut
+        car.car();
         car1.car();
-
-        Car2 car2 = new Car2();
         car2.car();
-
-        Car3 car3 = new Car3();
-        car3.car();
     }
-
 }
